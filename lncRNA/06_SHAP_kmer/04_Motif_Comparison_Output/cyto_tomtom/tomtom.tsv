@@ -1,0 +1,7 @@
+Query_ID	Target_ID	Optimal_offset	p-value	E-value	q-value	Overlap	Query_consensus	Target_consensus	Orientation
+1	M044_0.6	-1	0.000790748	0.0767026	0.0767026	7	CCGGCGCG	GCGCGCG	+
+4	M043_0.6	0	0.0003584	0.0347648	0.0347648	7	CCCGCCC	CCUUCCC	+
+
+# Tomtom (Motif Comparison Tool): Version 5.3.0 compiled on Dec 14 2020 at 23:56:07
+# The format of this file is described at http://meme-suite.org/doc/tomtom-output-format.html.
+# tomtom -no-ssc -oc . -verbosity 1 -min-overlap 5 -dist pearson -evalue -thresh 0.1 -norc -o ./04_Motif_Comparison_Output/cyto_tomtom ./04_Motif_Comparison_Output/cyto_favour_motif_consensus_seq_rna.meme ./motif_databases/CISBP-RNA/Homo_sapiens.meme
