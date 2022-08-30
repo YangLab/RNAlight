@@ -1,0 +1,231 @@
+#!/usr/bin/env python
+# coding=utf-8
+
+# ---
+# jupyter:
+#   jupytext:
+#     text_representation:
+#       extension: .py
+#       format_name: light
+#       format_version: '1.5'
+#       jupytext_version: 1.9.1
+#   kernelspec:
+#     display_name: pytorch
+#     language: python
+#     name: pytorch
+# ---
+
+# +
+# Args
+import argparse
+import time
+
+# Get args
+def get_args():
+    parser = argparse.ArgumentParser(description = "Predict diverse RNA subcellular localization with RNA sequence (cDNA format: ACGT) and identify determinant k-mers with Shapely value", usage = "RNAlight -q query.fasta [-p Prefix] [-o Output_Dir] [--shap Shapely_value] [--topn Top_n_k-mer] [-m mRNA] [--RNA RNA] [-h] [-v]", epilog="Happy Light!")
+    parser.add_argument("-q","--query", dest = "query", type = str, metavar=("Query"),required = True, help = "query file to be predicted (fasta format)")
+    parser.add_argument("-p","--prefix",dest = "prefix", type = str, default = "query", metavar=("Prefix"), help = "prefix of outputfiles (default: query)")
+    parser.add_argument("-o","--outputdir",dest = "outputdir",type = str, default = "./RNAlight_output", metavar=("Output_Dir"), help = "output directions of outputfiles (default:RNAlight_output)")
+    parser.add_argument("--shap",dest = "shap",action = "store_true", help = "Provide determinant k-mers using Shapely value")
+    parser.add_argument("--topn",dest = "topn",type = int,default = 10, help = "Top n determinant k-mers computed by Shaply value (default: 10)")
+    parser.add_argument("-m","--mRNA",dest = "mRNA", action = "store_true", help = "query sequence is mRNA")
+    parser.add_argument("--RNA",dest = "RNA",action = "store_true", help = "query sequence is RNA format(ACGU)")
+    parser.add_argument("-v","--version",action="version",version='RNAlight v1.0',help = "version for RNAlight")
+    args = parser.parse_args()
+    return args
+
+
+args = get_args()
+query_file = args.query
+mRNA = args.mRNA
+RNA = args.RNA
+s_shap = args.shap
+topn = args.topn
+prefix = args.prefix
+outputdir = args.outputdir
+
+# +
+# Python import
+print("[",time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()),"]:","\tLoading requirements......\n")
+import os
+import copy
+import itertools
+import numpy as np
+import pandas as pd
+from sklearn.externals import joblib
+import shap
+import matplotlib.pyplot as plt
+import matplotlib
+matplotlib.use('Agg')
+import warnings
+warnings.filterwarnings("ignore")
+
+# Count the frequency of k-mer in each RNA sequence
+# k-mer was normalized by total k-mer count of each RNA sequence
+def _count_kmer(Dataset,k): # k = 3,4,5
+    
+    # copy dataset
+    dataset = copy.deepcopy(Dataset)
+    # alphbet of nucleotide
+    nucleotide = ['A','C','G','T']
+    
+    # generate k-mers
+    #  k == 5:
+    five = list(itertools.product(nucleotide,repeat=5))
+    pentamer = []
+    for n in five:
+        pentamer.append("".join(n))
+    
+    #  k == 4:
+    four = list(itertools.product(nucleotide,repeat=4))
+    tetramer = []
+    for n in four:
+        tetramer.append("".join(n))
+
+    # k == 3:
+    three = list(itertools.product(nucleotide,repeat=3))
+    threemer = []
+    for n in three:
+        threemer.append("".join(n))
+    
+    # input features can be combinations of diffrent k values
+    if k == 34:
+        table_kmer = dict.fromkeys(threemer,0)
+        table_kmer.update(dict.fromkeys(tetramer,0))
+    if k == 45:
+        table_kmer = dict.fromkeys(tetramer,0)
+        table_kmer.update(dict.fromkeys(pentamer,0))
+    if k == 345:
+        table_kmer = dict.fromkeys(threemer,0)
+        table_kmer.update(dict.fromkeys(tetramer,0))
+        table_kmer.update(dict.fromkeys(pentamer,0))
+
+    # count k-mer for each sequence
+    for mer in table_kmer.keys():
+        table_kmer[mer] = dataset["cdna"].apply(lambda x : x.count(mer))
+    
+    # for k-mer raw count without normalization
+    rawcount_kmer_df = pd.DataFrame(table_kmer)
+    df1_rawcount = pd.concat([rawcount_kmer_df,dataset["seq_id"]],axis = 1)
+
+
+    # for k-mer frequency with normalization
+    freq_kmer_df = rawcount_kmer_df.apply(lambda x: x/x.sum(),axis=1)
+    df1 = pd.concat([freq_kmer_df,dataset["seq_id"]],axis = 1)
+
+    return df1,df1_rawcount
+
+# +
+# Output dir
+if not (os.path.exists(outputdir)):
+    os.mkdir(outputdir)
+
+# tmp_dir
+tmp_dir_name = prefix + ".tmp"
+tmp_dir = os.path.join(outputdir,tmp_dir_name)
+if not (os.path.exists(tmp_dir)):
+    os.mkdir(tmp_dir)
+
+# Convert fasta file to tab format
+tab_tmp = prefix + ".txt"
+if RNA:
+    fa2tab = "seqkit seq --dna2rna " + query_file +" | seqkit fx2tab | awk '{print $1"\t"toupper($2)}' > " + os.path.join(tmp_dir,tab_tmp)
+else:
+    fa2tab = "seqkit fx2tab " + query_file + " | awk '{print $1"\t"toupper($2)}' > " + os.path.join(tmp_dir,tab_tmp)
+
+os.system(fa2tab)
+
+# # +
+# Load RNAlight model
+print("[",time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()),"]","\tStart Loading RNAlight......\n")
+
+
+absolute_path = os.popen("dirname `which RNAlight`").read().strip('\n')
+
+if mRNA:
+    RNA_Light = joblib.load(os.path.join(absolute_path,"src/RNAlight_model/RNAlight_mRNA_model.pkl"))
+else:
+    RNA_Light = joblib.load(os.path.join(absolute_path,"src/RNAlight_model/RNAlight_lncRNA_model.pkl"))
+
+
+print("[",time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()),"]","\tSuccessfully Loaded RNAlight!\n")
+
+# +
+# Data Processing
+print("[",time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()),"]:","\tStart Data Processing......\n")
+
+
+query = pd.read_csv(os.path.join(tmp_dir,tab_tmp),sep='\t',index_col = False, names = ["seq_id","cdna"])
+df_kmer_345,df_kmer_345_rawcount = _count_kmer(query,345)
+
+kmer_file = prefix + "_df_kmer345_freq.tsv"
+kmer_rowcount_file = prefix + "_df_kmer345_rawcount.tsv"
+df_kmer_345.to_csv(os.path.join(outputdir,kmer_file),sep='\t')
+df_kmer_345_rawcount.to_csv(os.path.join(outputdir,kmer_rowcount_file),sep='\t')
+
+
+print("[",time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()),"]","\tSuccessfully Finished Data Processing!\n")
+
+# +
+# Predict 
+print("[",time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()),"]","\tStart Predicting......\n")
+
+
+del df_kmer_345['seq_id']
+x_kmer = df_kmer_345.values
+
+y_pred = RNA_Light.predict(x_kmer)
+y_prob = RNA_Light.predict_proba(x_kmer)[:,1]
+
+# Output
+query["RNALight_pred_label"] =  y_pred
+query["RNALight_pred_prob"] = y_prob
+query["Light_score"] = 2*y_prob-1 
+
+outputfile = prefix + "_RNAlight_predict_df.txt"
+query.to_csv(os.path.join(outputdir,outputfile),sep = '\t',index=False)
+
+
+print("[",time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()),"]","\tSuccessfully Finished Predicting!\n")
+# -
+
+if s_shap:
+    print("[",time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()),"]","\tStart Identifying determinant k-mers......\n")
+    #shap.initjs() 
+    # Identify determinant k-mers with Shapely value
+    RNA_Light_explainer = shap.TreeExplainer(RNA_Light)
+    shap_values_RNA_Light = RNA_Light_explainer.shap_values(df_kmer_345)[1]
+    
+    shap_df = pd.DataFrame(shap_values_RNA_Light,columns = df_kmer_345.columns)
+    shap_df.index = query["seq_id"]
+    output_shap_df = prefix + "_shap_df.txt"
+    shap_df.to_csv(os.path.join(outputdir,output_shap_df),sep = '\t')
+    
+    # Define colormap
+    my_colormap= plt.get_cmap("RdBu_r")
+
+    # Plot the summary without showing it
+    plt.figure()
+    # Violin plot
+    shap.summary_plot(shap_values_RNA_Light,features =df_kmer_345,max_display = topn,show=False)
+
+    # Change the colormap of the artists
+    for fc in plt.gcf().get_children():
+        for fcc in fc.get_children():
+            if hasattr(fcc, "set_cmap"):
+                fcc.set_cmap(my_colormap)
+    output_shap_violin_plot = prefix + "_shap_violin_plot_top" + str(topn) +"_k-mer.pdf"
+    plt.savefig(os.path.join(outputdir,output_shap_violin_plot), format='pdf', dpi=1200)
+    
+    # Bar plot
+    plt.figure()
+    shap.summary_plot(shap_values_RNA_Light,df_kmer_345,plot_type = "bar",max_display = topn,color = "#8d99ae",show = False)
+    output_shap_bar_plot = prefix + "_shap_bar_plot_top" + str(topn) +"_k-mer.pdf"
+    plt.savefig(os.path.join(outputdir,output_shap_bar_plot), format='pdf', dpi=1200)
+    print("[",time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()),"]","\tSuccessfully Finished Identifying determinant k-mers!\n")
+    print("[",time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()),"]","\tSuccessfully Finished RNAlight!")
+else:
+    print("[",time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()),"]","\t\nProcedure for Identifying determinant k-mers were not executed. Please add --shap if you need.")
+    print("[",time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()),"]","\tSuccessfully Finished RNAlight!")
+
+

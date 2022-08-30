@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<tomtom version="5.3.0" release="Wed Nov 25 19:19:29 2020 -0800">
+  <model>
+    <command_line>tomtom -no-ssc -oc . -verbosity 1 -min-overlap 5 -dist pearson -evalue -thresh 0.1 -norc -o ./04_Motif_Comparison_Output/cyto_tomtom ./04_Motif_Comparison_Output/cyto_favour_motif_consensus_seq_rna.meme ./motif_databases/CISBP-RNA/Homo_sapiens.meme</command_line>
+    <distance_measure value="pearson"/>
+    <threshold type="evalue">0.1</threshold>
+    <alphabet name="RNA" like="rna">
+      <letter id="A" symbol="A" name="Adenine" colour="CC0000"/>
+      <letter id="C" symbol="C" name="Cytosine" colour="0000CC"/>
+      <letter id="G" symbol="G" name="Guanine" colour="FFB300"/>
+      <letter id="U" symbol="U" aliases="T" name="Uracil" colour="008000"/>
+      <letter id="N" symbol="N" aliases="X." equals="ACGU" name="Any base"/>
+      <letter id="V" symbol="V" equals="ACG" name="Not U"/>
+      <letter id="H" symbol="H" equals="ACU" name="Not G"/>
+      <letter id="D" symbol="D" equals="AGU" name="Not C"/>
+      <letter id="B" symbol="B" equals="CGU" name="Not A"/>
+      <letter id="M" symbol="M" equals="AC" name="Amino"/>
+      <letter id="R" symbol="R" equals="AG" name="Purine"/>
+      <letter id="W" symbol="W" equals="AU" name="Weak"/>
+      <letter id="S" symbol="S" equals="CG" name="Strong"/>
+      <letter id="Y" symbol="Y" equals="CU" name="Pyrimidine"/>
+      <letter id="K" symbol="K" equals="GU" name="Keto"/>
+    </alphabet>
+    <strands>none</strands>
+    <background from="--query--" A="0.25" C="0.25" G="0.25" U="0.25"/>
+    <host>liyang-svr5.icb.ac.cn</host>
+    <when>Fri Sep  3 16:15:21 2021</when>
+  </model>
+  <query_dbs>
+    <db source="./04_Motif_Comparison_Output/cyto_favour_motif_consensus_seq_rna.meme" name="cyto_favour_motif_consensus_seq_rna" loaded="7" excluded="0" last_mod_date="Fri Sep  3 16:05:02 2021"/>
+  </query_dbs>
+  <target_dbs>
+    <db source="./motif_databases/CISBP-RNA/Homo_sapiens.meme" name="Homo_sapiens" loaded="97" excluded="0" last_mod_date="Tue Dec 15 03:53:15 2020"/>
+  </target_dbs>
+  <queries>
+    <motif db="0" id="1" alt="CGCGCCGG" length="8" nsites="20">
+      <pos A="0.0101284" C="0.889659" G="0.0101284" U="0.0900856"/>
+      <pos A="0.0101284" C="0.889659" G="0.0101284" U="0.0900856"/>
+      <pos A="0.0109045" C="0.0109045" G="0.967288" U="0.0109045"/>
+      <pos A="0.0109045" C="0.0109045" G="0.967288" U="0.0109045"/>
+      <pos A="0.0101284" C="0.889659" G="0.0101284" U="0.0900856"/>
+      <pos A="0.0109045" C="0.0109045" G="0.967288" U="0.0109045"/>
+      <pos A="0.0101284" C="0.889659" G="0.0101284" U="0.0900856"/>
+      <pos A="0.0109045" C="0.0109045" G="0.967288" U="0.0109045"/>
+    </motif>
+    <motif db="0" id="2" alt="CGUGUUA" length="7" nsites="20">
+      <pos A="0.0109045" C="0.0109045" G="0.0109045" U="0.967288"/>
+      <pos A="0.889659" C="0.0101284" G="0.0900856" U="0.0101284"/>
+      <pos A="0.889659" C="0.0101284" G="0.0900856" U="0.0101284"/>
+      <pos A="0.0101284" C="0.889659" G="0.0101284" U="0.0900856"/>
+      <pos A="0.889659" C="0.0101284" G="0.0900856" U="0.0101284"/>
+      <pos A="0.0101284" C="0.889659" G="0.0101284" U="0.0900856"/>
+      <pos A="0.0109045" C="0.0109045" G="0.967288" U="0.0109045"/>
+    </motif>
+    <motif db="0" id="3" alt="CGGCCGG" length="7" nsites="20">
+      <pos A="0.0101284" C="0.889659" G="0.0101284" U="0.0900856"/>
+      <pos A="0.0101284" C="0.889659" G="0.0101284" U="0.0900856"/>
+      <pos A="0.0109045" C="0.0109045" G="0.967288" U="0.0109045"/>
+      <pos A="0.0109045" C="0.0109045" G="0.967288" U="0.0109045"/>
+      <pos A="0.0101284" C="0.889659" G="0.0101284" U="0.0900856"/>
+      <pos A="0.0101284" C="0.889659" G="0.0101284" U="0.0900856"/>
+      <pos A="0.0109045" C="0.0109045" G="0.967288" U="0.0109045"/>
+    </motif>
+    <motif db="0" id="4" alt="GGGCGGG" length="7" nsites="20">
+      <pos A="0.0101284" C="0.889659" G="0.0101284" U="0.0900856"/>
+      <pos A="0.0101284" C="0.889659" G="0.0101284" U="0.0900856"/>
+      <pos A="0.0101284" C="0.889659" G="0.0101284" U="0.0900856"/>
+      <pos A="0.0109045" C="0.0109045" G="0.967288" U="0.0109045"/>
+      <pos A="0.0101284" C="0.889659" G="0.0101284" U="0.0900856"/>
+      <pos A="0.0101284" C="0.889659" G="0.0101284" U="0.0900856"/>
+      <pos A="0.0101284" C="0.889659" G="0.0101284" U="0.0900856"/>
+    </motif>
+    <motif db="0" id="5" alt="UCUGGGA" length="7" nsites="20">
+      <pos A="0.0109045" C="0.0109045" G="0.0109045" U="0.967288"/>
+      <pos A="0.0101284" C="0.889659" G="0.0101284" U="0.0900856"/>
+      <pos A="0.0101284" C="0.889659" G="0.0101284" U="0.0900856"/>
+      <pos A="0.0101284" C="0.889659" G="0.0101284" U="0.0900856"/>
+      <pos A="0.889659" C="0.0101284" G="0.0900856" U="0.0101284"/>
+      <pos A="0.0109045" C="0.0109045" G="0.967288" U="0.0109045"/>
+      <pos A="0.889659" C="0.0101284" G="0.0900856" U="0.0101284"/>
+    </motif>
+    <motif db="0" id="6" alt="CUGGGAU" length="7" nsites="20">
+      <pos A="0.889659" C="0.0101284" G="0.0900856" U="0.0101284"/>
+      <pos A="0.0109045" C="0.0109045" G="0.0109045" U="0.967288"/>
+      <pos A="0.0101284" C="0.889659" G="0.0101284" U="0.0900856"/>
+      <pos A="0.0101284" C="0.889659" G="0.0101284" U="0.0900856"/>
+      <pos A="0.0101284" C="0.889659" G="0.0101284" U="0.0900856"/>
+      <pos A="0.889659" C="0.0101284" G="0.0900856" U="0.0101284"/>
+      <pos A="0.0109045" C="0.0109045" G="0.967288" U="0.0109045"/>
+    </motif>
+    <motif db="0" id="7" alt="CUGCCCG" length="7" nsites="20">
+      <pos A="0.0101284" C="0.889659" G="0.0101284" U="0.0900856"/>
+      <pos A="0.0109045" C="0.0109045" G="0.967288" U="0.0109045"/>
+      <pos A="0.0109045" C="0.0109045" G="0.967288" U="0.0109045"/>
+      <pos A="0.0109045" C="0.0109045" G="0.967288" U="0.0109045"/>
+      <pos A="0.0101284" C="0.889659" G="0.0101284" U="0.0900856"/>
+      <pos A="0.889659" C="0.0101284" G="0.0900856" U="0.0101284"/>
+      <pos A="0.0109045" C="0.0109045" G="0.967288" U="0.0109045"/>
+    </motif>
+  </queries>
+  <targets>
+    <motif db="0" id="M043_0.6" alt="PCBP2" length="7" nsites="1"
+        url="http://cisbp-rna.ccbr.utoronto.ca/TFreport.php?searchTF=T18814_0.6">
+      <pos A="0.0648364" C="0.731175" G="0.0648364" U="0.139154"/>
+      <pos A="0.0446764" C="0.716921" G="0.0446764" U="0.193725"/>
+      <pos A="0.0446764" C="0.305758" G="0.0446764" U="0.604888"/>
+      <pos A="0.118749" C="0.305758" G="0.0446764" U="0.530816"/>
+      <pos A="0.120945" C="0.690839" G="0.0446764" U="0.14354"/>
+      <pos A="0.0446764" C="0.86597" G="0.0446764" U="0.0446764"/>
+      <pos A="0.166334" C="0.591353" G="0.0846009" U="0.157713"/>
+    </motif>
+    <motif db="0" id="M044_0.6" alt="PPRC1" length="7" nsites="1"
+        url="http://cisbp-rna.ccbr.utoronto.ca/TFreport.php?searchTF=T37277_0.6">
+      <pos A="0.101787" C="0.350766" G="0.445658" U="0.101787"/>
+      <pos A="0.0395509" C="0.543296" G="0.292823" U="0.12433"/>
+      <pos A="0.0395509" C="0.209908" G="0.71099" U="0.0395509"/>
+      <pos A="0.0395509" C="0.881347" G="0.0395509" U="0.0395509"/>
+      <pos A="0.0395509" C="0.122465" G="0.798434" U="0.0395509"/>
+      <pos A="0.0395509" C="0.801631" G="0.119267" U="0.0395509"/>
+      <pos A="0.0817791" C="0.331907" G="0.504535" U="0.0817791"/>
+    </motif>
+  </targets>
+  <matches>
+    <query idx="0">
+      <target idx="1" off="-1" pv="7.91e-04" ev="7.67e-02" qv="7.67e-02"/>
+    </query>
+    <query idx="3">
+      <target idx="0" off="0" pv="3.58e-04" ev="3.48e-02" qv="3.48e-02"/>
+    </query>
+  </matches>
+  <runtime cycles="76982" seconds="0.077"/>
+</tomtom>

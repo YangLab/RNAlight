@@ -1,0 +1,795 @@
+>ENST00000376398_1
+labels:1 ----Accuracy:0.621407
+>ENST00000366822_1
+labels:2 ----Accuracy:0.845742
+>ENST00000444431_1
+labels:1 ----Accuracy:0.575502
+>ENST00000310916_1
+labels:1 ----Accuracy:0.667228
+>ENST00000366234_1
+labels:2 ----Accuracy:0.901923
+>ENST00000457302_1
+labels:2 ----Accuracy:0.745454
+>ENST00000341866_1
+labels:1 ----Accuracy:0.487736
+>ENST00000377178_1
+labels:2 ----Accuracy:0.632267
+>ENST00000377680_1
+labels:2 ----Accuracy:0.544129
+>ENST00000406213_1
+labels:2 ----Accuracy:0.772994
+>ENST00000577684_1
+labels:3 ----Accuracy:0.510031
+>ENST00000417705_1
+labels:1 ----Accuracy:0.592562
+>ENST00000431979_1
+labels:2 ----Accuracy:0.641144
+>ENST00000413977_1
+labels:4 ----Accuracy:0.463098
+
+>ENST00000439298_1
+labels:1 ----Accuracy:0.830191
+>ENST00000534918_1
+labels:1 ----Accuracy:0.604402
+>ENST00000413665_1
+labels:1 ----Accuracy:0.542579
+>ENST00000434296_1
+labels:2 ----Accuracy:0.808658
+>ENST00000599640_1
+labels:2 ----Accuracy:0.672311
+>ENST00000418602_1
+labels:1 ----Accuracy:0.683963
+>ENST00000433840_1
+labels:2 ----Accuracy:0.761218
+>ENST00000420253_1
+labels:4 ----Accuracy:0.653972
+
+>ENST00000432386_1
+labels:2 ----Accuracy:0.57984
+>ENST00000634642_1
+labels:1 ----Accuracy:0.708796
+>ENST00000436328_1
+labels:4 ----Accuracy:0.854473
+
+>ENST00000423380_1
+labels:2 ----Accuracy:0.962004
+>ENST00000621982_1
+labels:3 ----Accuracy:0.822518
+>ENST00000526704_1
+labels:2 ----Accuracy:0.990876
+>ENST00000475197_1
+labels:2 ----Accuracy:0.716082
+>ENST00000430027_1
+labels:2 ----Accuracy:0.657294
+>ENST00000430586_1
+labels:1 ----Accuracy:0.500529
+>ENST00000594189_1
+labels:2 ----Accuracy:0.834864
+>ENST00000444093_1
+labels:1 ----Accuracy:0.840099
+>ENST00000417539_1
+labels:1 ----Accuracy:0.889273
+>ENST00000455253_1
+labels:2 ----Accuracy:0.854697
+>ENST00000629181_1
+labels:2 ----Accuracy:0.674104
+>ENST00000442449_1
+labels:2 ----Accuracy:0.991687
+>ENST00000456099_1
+labels:1 ----Accuracy:0.602862
+>ENST00000415434_1
+labels:2 ----Accuracy:0.805637
+>ENST00000452402_1
+labels:2 ----Accuracy:0.860825
+>ENST00000366365_1
+labels:2 ----Accuracy:0.647844
+>ENST00000424242_1
+labels:2 ----Accuracy:0.987439
+>ENST00000430181_1
+labels:4 ----Accuracy:0.720602
+
+>ENST00000443901_1
+labels:1 ----Accuracy:0.507401
+>ENST00000597755_1
+labels:2 ----Accuracy:0.965932
+>ENST00000412102_1
+labels:2 ----Accuracy:0.471299
+>ENST00000437680_1
+labels:2 ----Accuracy:0.948745
+>ENST00000493710_1
+labels:2 ----Accuracy:0.761118
+>ENST00000414625_1
+labels:2 ----Accuracy:0.774667
+>ENST00000469178_1
+labels:2 ----Accuracy:0.568544
+>ENST00000462717_1
+labels:3 ----Accuracy:0.650469
+>ENST00000500262_1
+labels:2 ----Accuracy:0.968513
+>ENST00000501177_1
+labels:4 ----Accuracy:0.799123
+
+>ENST00000499988_1
+labels:3 ----Accuracy:0.402271
+>ENST00000499910_1
+labels:1 ----Accuracy:0.920697
+>ENST00000425316_1
+labels:4 ----Accuracy:0.853299
+
+>ENST00000602381_1
+labels:2 ----Accuracy:0.924854
+>ENST00000496733_1
+labels:1 ----Accuracy:0.645126
+>ENST00000501448_1
+labels:2 ----Accuracy:0.540188
+>ENST00000503007_1
+labels:2 ----Accuracy:0.675548
+>ENST00000503107_1
+labels:1 ----Accuracy:0.901999
+>ENST00000503843_1
+labels:2 ----Accuracy:0.936078
+>ENST00000505668_1
+labels:1 ----Accuracy:0.809022
+>ENST00000504082_1
+labels:1 ----Accuracy:0.53897
+>ENST00000508832_1
+labels:2 ----Accuracy:0.727264
+>ENST00000523791_1
+labels:2 ----Accuracy:0.848222
+>ENST00000517927_1
+labels:2 ----Accuracy:0.74572
+>ENST00000517299_1
+labels:2 ----Accuracy:0.685132
+>ENST00000466343_1
+labels:1 ----Accuracy:0.625492
+>ENST00000527285_1
+labels:1 ----Accuracy:0.566799
+>ENST00000530198_1
+labels:2 ----Accuracy:0.644484
+>ENST00000533009_1
+labels:1 ----Accuracy:0.672662
+>ENST00000540866_1
+labels:2 ----Accuracy:0.687266
+>ENST00000442008_1
+labels:4 ----Accuracy:0.578895
+
+>ENST00000547717_1
+labels:1 ----Accuracy:0.568531
+>ENST00000637474_1
+labels:1 ----Accuracy:0.589449
+>ENST00000553575_1
+labels:2 ----Accuracy:0.570488
+>ENST00000555108_1
+labels:2 ----Accuracy:0.908482
+>ENST00000555968_1
+labels:2 ----Accuracy:0.467785
+>ENST00000553270_1
+labels:4 ----Accuracy:0.988051
+
+>ENST00000558888_1
+labels:1 ----Accuracy:0.610984
+>ENST00000557928_1
+labels:4 ----Accuracy:0.850261
+
+>ENST00000564919_1
+labels:2 ----Accuracy:0.503459
+>ENST00000568280_1
+labels:1 ----Accuracy:0.642024
+>ENST00000344620_1
+labels:2 ----Accuracy:0.588956
+>ENST00000567102_1
+labels:1 ----Accuracy:0.961362
+>ENST00000564460_1
+labels:1 ----Accuracy:0.548628
+>ENST00000620192_1
+labels:1 ----Accuracy:0.851605
+>ENST00000563464_1
+labels:2 ----Accuracy:0.592806
+>ENST00000570141_1
+labels:1 ----Accuracy:0.4662
+>ENST00000563059_1
+labels:2 ----Accuracy:0.882972
+>ENST00000566954_1
+labels:4 ----Accuracy:0.500028
+
+>ENST00000568752_1
+labels:1 ----Accuracy:0.549372
+>ENST00000564224_1
+labels:2 ----Accuracy:0.895505
+>ENST00000562691_1
+labels:2 ----Accuracy:0.669719
+>ENST00000561507_1
+labels:1 ----Accuracy:0.701288
+>ENST00000563554_1
+labels:1 ----Accuracy:0.935476
+>ENST00000561486_1
+labels:2 ----Accuracy:0.980953
+>ENST00000565254_1
+labels:2 ----Accuracy:0.570066
+>ENST00000562493_1
+labels:1 ----Accuracy:0.794074
+>ENST00000571775_1
+labels:2 ----Accuracy:0.700809
+>ENST00000571113_1
+labels:1 ----Accuracy:0.724505
+>ENST00000571452_1
+labels:2 ----Accuracy:0.696843
+>ENST00000581303_1
+labels:2 ----Accuracy:0.741955
+>ENST00000580686_1
+labels:2 ----Accuracy:0.919671
+>ENST00000581621_1
+labels:2 ----Accuracy:0.877953
+>ENST00000580385_1
+labels:4 ----Accuracy:0.450415
+
+>ENST00000580085_1
+labels:1 ----Accuracy:0.597232
+>ENST00000592747_1
+labels:2 ----Accuracy:0.821249
+>ENST00000589796_1
+labels:2 ----Accuracy:0.456001
+>ENST00000587933_1
+labels:3 ----Accuracy:0.982735
+>ENST00000596133_1
+labels:2 ----Accuracy:0.792844
+>ENST00000599316_1
+labels:2 ----Accuracy:0.961059
+>ENST00000594586_1
+labels:4 ----Accuracy:0.651027
+
+>ENST00000601559_1
+labels:4 ----Accuracy:0.728428
+
+>ENST00000602436_1
+labels:3 ----Accuracy:0.489982
+>ENST00000602455_1
+labels:1 ----Accuracy:0.701094
+>ENST00000602973_1
+labels:2 ----Accuracy:0.88562
+>ENST00000524412_1
+labels:2 ----Accuracy:0.895435
+>ENST00000602835_1
+labels:2 ----Accuracy:0.900722
+>ENST00000602749_1
+labels:1 ----Accuracy:0.522917
+>ENST00000604340_1
+labels:2 ----Accuracy:0.954392
+>ENST00000604052_1
+labels:2 ----Accuracy:0.544934
+>ENST00000605739_1
+labels:2 ----Accuracy:0.742219
+>ENST00000605595_1
+labels:2 ----Accuracy:0.877825
+>ENST00000603439_1
+labels:2 ----Accuracy:0.655107
+>ENST00000604650_1
+labels:2 ----Accuracy:0.980279
+>ENST00000606930_1
+labels:2 ----Accuracy:0.491477
+>ENST00000607052_1
+labels:2 ----Accuracy:0.995224
+>ENST00000607839_1
+labels:2 ----Accuracy:0.762588
+>ENST00000606908_1
+labels:2 ----Accuracy:0.913392
+>ENST00000606379_1
+labels:2 ----Accuracy:0.790155
+>ENST00000606157_1
+labels:1 ----Accuracy:0.762264
+>ENST00000606593_1
+labels:1 ----Accuracy:0.904707
+>ENST00000608430_1
+labels:2 ----Accuracy:0.608595
+>ENST00000609736_1
+labels:1 ----Accuracy:0.645532
+>ENST00000610161_1
+labels:4 ----Accuracy:0.998708
+
+>ENST00000608014_1
+labels:2 ----Accuracy:0.810806
+>ENST00000608017_1
+labels:1 ----Accuracy:0.87896
+>ENST00000608275_1
+labels:2 ----Accuracy:0.833816
+>ENST00000609909_1
+labels:2 ----Accuracy:0.898202
+>ENST00000607946_1
+labels:2 ----Accuracy:0.907431
+>ENST00000622438_1
+labels:2 ----Accuracy:0.744342
+>ENST00000612267_1
+labels:1 ----Accuracy:0.732072
+>ENST00000621471_1
+labels:2 ----Accuracy:0.466719
+>ENST00000617300_1
+labels:3 ----Accuracy:0.399278
+>ENST00000613543_1
+labels:2 ----Accuracy:0.747122
+>ENST00000617568_1
+labels:1 ----Accuracy:0.872676
+>ENST00000615100_1
+labels:2 ----Accuracy:0.564796
+>ENST00000610409_1
+labels:1 ----Accuracy:0.449441
+>ENST00000614098_1
+labels:1 ----Accuracy:0.683102
+>ENST00000615979_1
+labels:2 ----Accuracy:0.956801
+>ENST00000618966_1
+labels:2 ----Accuracy:0.917455
+>ENST00000620769_1
+labels:3 ----Accuracy:0.672139
+>ENST00000617415_1
+labels:2 ----Accuracy:0.349976
+>ENST00000615045_1
+labels:2 ----Accuracy:0.420688
+>ENST00000614576_1
+labels:1 ----Accuracy:0.639187
+>ENST00000612055_1
+labels:2 ----Accuracy:0.547056
+>ENST00000619055_1
+labels:2 ----Accuracy:0.880083
+>ENST00000622750_1
+labels:2 ----Accuracy:0.438917
+>ENST00000620689_1
+labels:2 ----Accuracy:0.793285
+>ENST00000619452_1
+labels:2 ----Accuracy:0.992285
+>ENST00000620246_1
+labels:2 ----Accuracy:0.95826
+>ENST00000613838_1
+labels:2 ----Accuracy:0.751555
+>ENST00000614934_1
+labels:2 ----Accuracy:0.915998
+>ENST00000622268_1
+labels:2 ----Accuracy:0.696449
+>ENST00000619739_1
+labels:1 ----Accuracy:0.705384
+>ENST00000624039_1
+labels:2 ----Accuracy:0.697301
+>ENST00000623722_1
+labels:2 ----Accuracy:0.962179
+>ENST00000623547_1
+labels:2 ----Accuracy:0.823433
+>ENST00000623886_1
+labels:2 ----Accuracy:0.824745
+>ENST00000624511_1
+labels:2 ----Accuracy:0.876709
+>ENST00000625052_1
+labels:1 ----Accuracy:0.987998
+>ENST00000623398_1
+labels:1 ----Accuracy:0.890399
+>ENST00000623625_1
+labels:2 ----Accuracy:0.997775
+>ENST00000623307_1
+labels:2 ----Accuracy:0.399563
+>ENST00000624467_1
+labels:2 ----Accuracy:0.802995
+>ENST00000623679_1
+labels:1 ----Accuracy:0.918883
+>ENST00000624376_1
+labels:2 ----Accuracy:0.899052
+>ENST00000623966_1
+labels:1 ----Accuracy:0.848652
+>ENST00000624372_1
+labels:1 ----Accuracy:0.463924
+>ENST00000624299_1
+labels:2 ----Accuracy:0.684487
+>ENST00000623181_1
+labels:2 ----Accuracy:0.817445
+>ENST00000624423_1
+labels:2 ----Accuracy:0.769952
+>ENST00000624836_1
+labels:1 ----Accuracy:0.699138
+>ENST00000624861_1
+labels:2 ----Accuracy:0.521304
+>ENST00000623862_1
+labels:2 ----Accuracy:0.651132
+>ENST00000623412_1
+labels:2 ----Accuracy:0.592633
+>ENST00000623634_1
+labels:1 ----Accuracy:0.525292
+>ENST00000625022_1
+labels:2 ----Accuracy:0.946981
+>ENST00000624366_1
+labels:2 ----Accuracy:0.953235
+>ENST00000624866_1
+labels:2 ----Accuracy:0.769473
+>ENST00000623994_1
+labels:2 ----Accuracy:0.405375
+>ENST00000624442_1
+labels:2 ----Accuracy:0.675933
+>ENST00000624563_1
+labels:2 ----Accuracy:0.697915
+>ENST00000626627_1
+labels:1 ----Accuracy:0.964844
+>ENST00000296270_0
+labels:2 ----Accuracy:0.87783
+>ENST00000297163_0
+labels:1 ----Accuracy:0.852862
+>ENST00000308604_0
+labels:3 ----Accuracy:0.898362
+>ENST00000333319_0
+labels:2 ----Accuracy:0.702972
+>ENST00000352367_0
+labels:2 ----Accuracy:0.979575
+>ENST00000358772_0
+labels:3 ----Accuracy:0.709432
+>ENST00000607322_0
+labels:1 ----Accuracy:0.617143
+>ENST00000366259_0
+labels:3 ----Accuracy:0.30913
+>ENST00000432267_0
+labels:2 ----Accuracy:0.46095
+>ENST00000381800_0
+labels:4 ----Accuracy:1
+
+>ENST00000382133_0
+labels:2 ----Accuracy:0.491378
+>ENST00000647566_0
+labels:3 ----Accuracy:0.599629
+>ENST00000420364_0
+labels:3 ----Accuracy:0.624016
+>ENST00000401018_0
+labels:3 ----Accuracy:0.820114
+>ENST00000408966_0
+labels:3 ----Accuracy:0.55488
+>ENST00000452501_0
+labels:4 ----Accuracy:0.963469
+
+>ENST00000434547_0
+labels:2 ----Accuracy:0.944775
+>ENST00000451775_0
+labels:3 ----Accuracy:0.65221
+>ENST00000417299_0
+labels:2 ----Accuracy:0.666278
+>ENST00000458151_0
+labels:2 ----Accuracy:0.446366
+>ENST00000421598_0
+labels:2 ----Accuracy:0.419844
+>ENST00000453722_0
+labels:2 ----Accuracy:0.625443
+>ENST00000450804_0
+labels:2 ----Accuracy:0.865424
+>ENST00000419640_0
+labels:2 ----Accuracy:0.889196
+>ENST00000572287_0
+labels:2 ----Accuracy:0.400682
+>ENST00000455294_0
+labels:3 ----Accuracy:0.824633
+>ENST00000652147_0
+labels:2 ----Accuracy:0.50926
+>ENST00000433671_0
+labels:3 ----Accuracy:0.866913
+>ENST00000432368_0
+labels:2 ----Accuracy:0.551119
+>ENST00000607412_0
+labels:2 ----Accuracy:0.758087
+>ENST00000441531_0
+labels:1 ----Accuracy:0.633921
+>ENST00000445466_0
+labels:4 ----Accuracy:0.60103
+
+>ENST00000448001_0
+labels:2 ----Accuracy:0.924626
+>ENST00000412060_0
+labels:1 ----Accuracy:0.929599
+>ENST00000449958_0
+labels:2 ----Accuracy:0.922288
+>ENST00000535199_0
+labels:4 ----Accuracy:0.811009
+
+>ENST00000456190_0
+labels:4 ----Accuracy:0.523399
+
+>ENST00000429962_0
+labels:3 ----Accuracy:0.729924
+>ENST00000434443_0
+labels:2 ----Accuracy:0.960411
+>ENST00000420279_0
+labels:3 ----Accuracy:0.490102
+>ENST00000366187_0
+labels:3 ----Accuracy:0.942113
+>ENST00000582291_0
+labels:1 ----Accuracy:0.311024
+>ENST00000433480_0
+labels:3 ----Accuracy:0.483674
+>ENST00000502390_0
+labels:2 ----Accuracy:0.594198
+>ENST00000618844_0
+labels:1 ----Accuracy:0.455817
+>ENST00000432481_0
+labels:1 ----Accuracy:0.651411
+>ENST00000448490_0
+labels:2 ----Accuracy:0.701469
+>ENST00000453157_0
+labels:2 ----Accuracy:0.556532
+>ENST00000456382_0
+labels:4 ----Accuracy:0.821984
+
+>ENST00000413088_0
+labels:1 ----Accuracy:0.713008
+>ENST00000433600_0
+labels:1 ----Accuracy:0.437813
+>ENST00000452883_0
+labels:2 ----Accuracy:0.691498
+>ENST00000647661_0
+labels:1 ----Accuracy:0.626181
+>ENST00000415386_0
+labels:2 ----Accuracy:0.535452
+>ENST00000411906_0
+labels:1 ----Accuracy:0.712981
+>ENST00000441033_0
+labels:4 ----Accuracy:0.58644
+
+>ENST00000416824_0
+labels:3 ----Accuracy:0.480084
+>ENST00000457283_0
+labels:2 ----Accuracy:0.682916
+>ENST00000414442_0
+labels:4 ----Accuracy:0.952347
+
+>ENST00000419463_0
+labels:1 ----Accuracy:0.628479
+>ENST00000437354_0
+labels:1 ----Accuracy:0.845619
+>ENST00000423171_0
+labels:2 ----Accuracy:0.784159
+>ENST00000434223_0
+labels:2 ----Accuracy:0.911874
+>ENST00000420213_0
+labels:2 ----Accuracy:0.403169
+>ENST00000503134_0
+labels:2 ----Accuracy:0.5823
+>ENST00000445681_0
+labels:2 ----Accuracy:0.757264
+>ENST00000442889_0
+labels:3 ----Accuracy:0.809975
+>ENST00000422059_0
+labels:2 ----Accuracy:0.494014
+>ENST00000419440_0
+labels:1 ----Accuracy:0.451019
+>ENST00000416860_0
+labels:1 ----Accuracy:0.57283
+>ENST00000457628_0
+labels:2 ----Accuracy:0.928304
+>ENST00000421157_0
+labels:2 ----Accuracy:0.861565
+>ENST00000422761_0
+labels:2 ----Accuracy:0.754997
+>ENST00000429172_0
+labels:2 ----Accuracy:0.538793
+>ENST00000463408_0
+labels:4 ----Accuracy:0.667501
+
+>ENST00000467484_0
+labels:4 ----Accuracy:0.931307
+
+>ENST00000455309_0
+labels:2 ----Accuracy:0.775098
+>ENST00000483840_0
+labels:2 ----Accuracy:0.649463
+>ENST00000464420_0
+labels:1 ----Accuracy:0.794793
+>ENST00000440629_0
+labels:2 ----Accuracy:0.973913
+>ENST00000473636_0
+labels:2 ----Accuracy:0.593387
+>ENST00000480284_0
+labels:3 ----Accuracy:0.998798
+>ENST00000460148_0
+labels:4 ----Accuracy:0.651084
+
+>ENST00000466692_0
+labels:2 ----Accuracy:0.900942
+>ENST00000501855_0
+labels:2 ----Accuracy:0.468334
+>ENST00000500113_0
+labels:3 ----Accuracy:0.463277
+>ENST00000500381_0
+labels:2 ----Accuracy:0.894843
+>ENST00000499966_0
+labels:2 ----Accuracy:0.915968
+>ENST00000508925_0
+labels:1 ----Accuracy:0.414568
+>ENST00000505494_0
+labels:2 ----Accuracy:0.898581
+>ENST00000504280_0
+labels:2 ----Accuracy:0.944376
+>ENST00000503048_0
+labels:1 ----Accuracy:0.710109
+>ENST00000508189_0
+labels:2 ----Accuracy:0.54139
+>ENST00000515608_0
+labels:2 ----Accuracy:0.613394
+>ENST00000504932_0
+labels:2 ----Accuracy:0.647841
+>ENST00000549844_0
+labels:2 ----Accuracy:0.931876
+>ENST00000509036_0
+labels:3 ----Accuracy:0.997569
+>ENST00000510469_0
+labels:2 ----Accuracy:0.967746
+>ENST00000523081_0
+labels:2 ----Accuracy:0.651584
+>ENST00000521204_0
+labels:2 ----Accuracy:0.55698
+>ENST00000517884_0
+labels:2 ----Accuracy:0.964827
+>ENST00000529369_0
+labels:2 ----Accuracy:0.483294
+>ENST00000530897_0
+labels:4 ----Accuracy:0.662642
+
+>ENST00000540868_0
+labels:1 ----Accuracy:0.687487
+>ENST00000538329_0
+labels:3 ----Accuracy:0.715646
+>ENST00000539116_0
+labels:1 ----Accuracy:0.672066
+>ENST00000541574_0
+labels:1 ----Accuracy:0.528909
+>ENST00000546421_0
+labels:3 ----Accuracy:0.877699
+>ENST00000550380_0
+labels:2 ----Accuracy:0.669593
+>ENST00000549565_0
+labels:3 ----Accuracy:0.995322
+>ENST00000549388_0
+labels:1 ----Accuracy:0.910393
+>ENST00000547799_0
+labels:2 ----Accuracy:0.814523
+>ENST00000552026_0
+labels:2 ----Accuracy:0.715038
+>ENST00000550263_0
+labels:3 ----Accuracy:0.985183
+>ENST00000552415_0
+labels:2 ----Accuracy:0.989836
+>ENST00000547748_0
+labels:2 ----Accuracy:0.940045
+>ENST00000549683_0
+labels:1 ----Accuracy:0.959974
+>ENST00000546852_0
+labels:3 ----Accuracy:0.991614
+>ENST00000557350_0
+labels:3 ----Accuracy:0.593089
+>ENST00000557524_0
+labels:3 ----Accuracy:0.475278
+>ENST00000556762_0
+labels:4 ----Accuracy:0.741949
+
+>ENST00000555966_0
+labels:4 ----Accuracy:0.697994
+
+>ENST00000555032_0
+labels:2 ----Accuracy:0.761505
+>ENST00000565493_0
+labels:1 ----Accuracy:0.819109
+>ENST00000570282_0
+labels:1 ----Accuracy:0.317446
+>ENST00000562656_0
+labels:2 ----Accuracy:0.926748
+>ENST00000561762_0
+labels:3 ----Accuracy:0.65911
+>ENST00000561672_0
+labels:1 ----Accuracy:0.618714
+>ENST00000564956_0
+labels:2 ----Accuracy:0.532111
+>ENST00000564834_0
+labels:3 ----Accuracy:0.787451
+>ENST00000566056_0
+labels:1 ----Accuracy:0.523496
+>ENST00000565797_0
+labels:1 ----Accuracy:0.437639
+>ENST00000564479_0
+labels:4 ----Accuracy:0.762464
+
+>ENST00000562956_0
+labels:1 ----Accuracy:0.694478
+>ENST00000568244_0
+labels:4 ----Accuracy:0.548558
+
+>ENST00000566383_0
+labels:4 ----Accuracy:0.636521
+
+>ENST00000570945_0
+labels:3 ----Accuracy:0.734531
+>ENST00000576871_0
+labels:3 ----Accuracy:0.521018
+>ENST00000573220_0
+labels:2 ----Accuracy:0.806813
+>ENST00000585072_0
+labels:1 ----Accuracy:0.640136
+>ENST00000577853_0
+labels:2 ----Accuracy:0.898474
+>ENST00000583934_0
+labels:3 ----Accuracy:0.882017
+>ENST00000585877_0
+labels:3 ----Accuracy:0.416336
+>ENST00000592431_0
+labels:1 ----Accuracy:0.404243
+>ENST00000586389_0
+labels:1 ----Accuracy:0.529947
+>ENST00000587150_0
+labels:1 ----Accuracy:0.930116
+>ENST00000595649_0
+labels:2 ----Accuracy:0.896593
+>ENST00000596206_0
+labels:2 ----Accuracy:0.624727
+>ENST00000425267_0
+labels:2 ----Accuracy:0.75865
+>ENST00000602435_0
+labels:2 ----Accuracy:0.868702
+>ENST00000602946_0
+labels:4 ----Accuracy:0.797244
+
+>ENST00000474115_0
+labels:2 ----Accuracy:0.765038
+>ENST00000602478_0
+labels:1 ----Accuracy:0.743313
+>ENST00000602953_0
+labels:2 ----Accuracy:0.500803
+>ENST00000602813_0
+labels:1 ----Accuracy:0.907684
+>ENST00000604992_0
+labels:2 ----Accuracy:0.632727
+>ENST00000604546_0
+labels:2 ----Accuracy:0.878193
+>ENST00000603791_0
+labels:2 ----Accuracy:0.661534
+>ENST00000604818_0
+labels:2 ----Accuracy:0.406119
+>ENST00000604760_0
+labels:2 ----Accuracy:0.830739
+>ENST00000604660_0
+labels:3 ----Accuracy:0.907636
+>ENST00000606994_0
+labels:4 ----Accuracy:0.400658
+
+>ENST00000606069_0
+labels:2 ----Accuracy:0.470048
+>ENST00000606070_0
+labels:3 ----Accuracy:0.555278
+>ENST00000609924_0
+labels:2 ----Accuracy:0.602278
+>ENST00000608721_0
+labels:2 ----Accuracy:0.629706
+>ENST00000608799_0
+labels:2 ----Accuracy:0.517936
+>ENST00000608012_0
+labels:2 ----Accuracy:0.447159
+>ENST00000462662_0
+labels:4 ----Accuracy:0.455252
+
+>ENST00000609281_0
+labels:1 ----Accuracy:0.748604
+>ENST00000607928_0
+labels:4 ----Accuracy:0.636271
+
+>ENST00000622889_0
+labels:2 ----Accuracy:0.783517
+>ENST00000613438_0
+labels:3 ----Accuracy:0.514712
+>ENST00000610908_0
+labels:2 ----Accuracy:0.678883
+>ENST00000612330_0
+labels:2 ----Accuracy:0.383264
+>ENST00000618845_0
+labels:2 ----Accuracy:0.588286
+>ENST00000614364_0
+labels:3 ----Accuracy:0.874783
+>ENST00000625195_0
+labels:3 ----Accuracy:0.766297
+>ENST00000623899_0
+labels:2 ----Accuracy:0.602007
+>ENST00000624401_0
+labels:1 ----Accuracy:0.612626
+>ENST00000629357_0
+labels:2 ----Accuracy:0.927845
+>ENST00000412426_0
+labels:1 ----Accuracy:0.70723
+>ENST00000632982_0
+labels:2 ----Accuracy:0.891696
+>ENST00000635177_0
+labels:2 ----Accuracy:0.589627
