@@ -26,23 +26,24 @@ RNAlight: a machine learning model to identify determinant features for RNA subc
         conda install seqkit=0.14.0
 
 ## 2. Usage
-    usage: RNAlight -q query.fasta [-m mRNA] [-p Prefix] [-O Output_Dir] [-h] [-v]
+	usage: RNAlight -q query.fasta [-p Prefix] [-o Output_Dir] [--shap Shapely_value] [--topn Top_n_k-mer] [-m mRNA] [--RNA RNA] [-h] [-v]
 
-    Predict diverse RNA subcellular localization with RNA sequence (cDNA format:
-    ACGT)
+	Predict diverse RNA subcellular localization with RNA sequence (cDNA format:
+	ACGT) and identify determinant k-mers with Shapely value
 
-    optional arguments:
-      -h, --help            show this help message and exit
-      -q Query, --query Query
-                            query file to be predicted (fasta format)
-      -p Prefix, --prefix Prefix
-                            prefix of outputfiles (default: query)
-      -O Output_Dir, --outputdir Output_Dir
-                            output directions of outputfiles (default:RNA-
-                            Light_output)
-      -m, --mRNA            query sequence is mRNA
-      --RNA                 query sequence is RNA format(ACGU)
-      -v, --version         version for RNAlight
+	optional arguments:
+  		-h, --help				show this help message and exit
+  		-q Query, --query Query
+                        		query file to be predicted (fasta format)
+  		-p Prefix, --prefix Prefix
+                        		prefix of outputfiles (default: query)
+  		-o Output_Dir, --outputdir Output_Dir
+                       			output directions of outputfiles (default:RNAlight_output)
+		--shap                	Provide determinant k-mers using Shapely value
+  		--topn TOPN           	Top n determinant k-mers computed by Shaply value (default: 10)
+  		-m, --mRNA            	query sequence is mRNA
+  		--RNA                 	query sequence is RNA format(ACGU)
+  		-v, --version         	version for RNAlight
       
 ## 3. Example
 * Your query file need to be a fasta format which recorded the cDNA sequence of RNA (U was replaced as T, ACGT).
