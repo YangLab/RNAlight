@@ -1,0 +1,1 @@
+Time_consumption=398.2705671787262	Memory_consumption=17501
