@@ -1,0 +1,6 @@
+Table S1. RNAseq enrichments (pulldown / input) for the Halo-p65 Haloseq experiment, as identified by DESeq2. Only genes with at least 5 counts in all p65 samples are included. Gene biotype designations are drawn from biomaRt.
+
+Table S2. RNAseq enrichments (pulldown / input) for the H2B-Halo Haloseq experiment, as identified by DESeq2. Only genes with at least 5 counts in all H2B samples are included. Gene biotype designations are drawn from biomaRt.
+
+
+From Engel, K. L., et al, 2022, Nucleic Acids Res, Analysis of subcellular transcriptomes by RNA proximity labeling with Halo-seq.
