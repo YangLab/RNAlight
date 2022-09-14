@@ -13,6 +13,7 @@
       statsmodels>=0.10.2
       matplotlib>=3.2.2
       jupyterlab>=3.0.3
+      gensim==3.7.3
 * R
 
       r-base>=3.6.3
@@ -24,6 +25,7 @@
       seqkit==0.14.0
       meme==5.3.0
       clustalo==1.2.4
+      CLEAR/CIRCexplorer3==1.0
       
 ## 2. Deep learning model
 * GPU: NVIDIA Tesla V100 PCIe 32GB, Driver Version: 440.31, CUDA Version: 10.2
@@ -38,7 +40,8 @@
       h5py==3.1.0
       scikit-learn==0.20.3
       matplotlib>=3.3.3
-  
+
+Trained deep learning models were not provided because of the file size limitation. Please contact us to get their specific parameters if you need.
 
 ## 3. Gene annotation files
 Gene annotation files were not provided because of the file size limitation. Please download them additionally into the corresponding directions according to the codes expected to be run.
