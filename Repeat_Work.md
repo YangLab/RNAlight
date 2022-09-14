@@ -13,7 +13,6 @@
       statsmodels>=0.10.2
       matplotlib>=3.2.2
       jupyterlab>=3.0.3
-      gensim==3.7.3
 * R
 
       r-base>=3.6.3
@@ -40,6 +39,7 @@
       h5py==3.1.0
       scikit-learn==0.20.3
       matplotlib>=3.3.3
+      gensim==3.7.3
 
 Trained deep learning models were not provided because of the file size limitation. Please contact us to get their specific parameters if you need.
 
