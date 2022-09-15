@@ -26,10 +26,10 @@ RNAlight: a machine learning model to identify determinant features for RNA subc
         conda install seqkit=0.14.0
 
 ## 2. Usage
-	usage: RNAlight -q query.fasta [-p Prefix] [-o Output_Dir] [--shap Shapely_value] [--topn Top_n_k-mer] [-m mRNA] [--RNA RNA] [-h] [-v]
+	usage: RNAlight -q query.fasta [-p Prefix] [-o Output_Dir] [--shap Shapley_value] [--topn Top_n_k-mer] [-m mRNA] [--RNA RNA] [-h] [-v]
 
 	Predict diverse RNA subcellular localization with RNA sequence (cDNA format:
-	ACGT) and identify determinant k-mers with Shapely value
+	ACGT) and identify determinant k-mers with Shapley value 
 
 	optional arguments:
   		-h, --help				show this help message and exit
@@ -39,8 +39,8 @@ RNAlight: a machine learning model to identify determinant features for RNA subc
                         		prefix of outputfiles (default: query)
   		-o Output_Dir, --outputdir Output_Dir
                        			output directions of outputfiles (default:RNAlight_output)
-		--shap                	Provide determinant k-mers using Shapely value
-  		--topn TOPN           	Top n determinant k-mers computed by Shaply value (default: 10)
+		--shap                	Provide determinant k-mers using Shapley value
+  		--topn TOPN           	Top n determinant k-mers computed by Shapley value (default: 10)
   		-m, --mRNA            	query sequence is mRNA
   		--RNA                 	query sequence is RNA format(ACGU)
   		-v, --version         	version for RNAlight
@@ -79,7 +79,7 @@ RNAlight: a machine learning model to identify determinant features for RNA subc
     
     
 ## 5. Repeat this work
-If you want to repeat this from scratch, please see [Repeat_Work](./Repeat_Work.md) to find requirements you need. If only use RNAlight to predict RNA subcellular localization, please ignore this part.
+If you want to repeat this from scratch, please see [Repeat_Work](./Repeat_Work.md) to find requirements you need. If only use RNAlight to predict RNA subcellular localization, please ignore this section.
 
     
 ## 6. Citation
