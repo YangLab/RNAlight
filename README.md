@@ -2,6 +2,11 @@
 
 RNAlight: a machine learning model to identify determinant features for RNA subcellular localization.
 
+Version: 1.0 2022/10/26
+
+Author: Guo-Hua Yuan 
+
+Email: yuanguohua2020@sibs.ac.cn
 
 ## 1. Installation
 ### 1.1 Download RNAlight git repo
