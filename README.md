@@ -88,7 +88,7 @@ If you want to repeat this from scratch, please see [Repeat_Work](./Repeat_Work.
 
     
 ## 6. Citation
-
+Yuan GH#, Wang Y#, Wang GZ and Yang L*. RNAlight: a machine learning model to identify nucleotide features determining RNA subcellular localization. ***Brief Bioinform***, 2022, 10.1093/bib/bbac509
 
 
 ## 7. License
