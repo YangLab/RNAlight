@@ -79,7 +79,7 @@ Email: yuanguohua2020@sibs.ac.cn
     | ---------- | :-----------:  |
     | seq_id     | ID of sequence      |
     | RNALight_pred_label | Predict label of sequence (0:Cytoplasm; 1: Nucleus) |
-    | RNALight_pred_prob| Probility of necleus loclaization from RNAlight |
+    | RNALight_pred_prob| Probability of necleus loclaization from RNAlight |
     | Light_score | Scaled RNALight_pred_prob (range from -1 to 1) |
     
     
