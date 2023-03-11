@@ -53,15 +53,15 @@ Email: yuanguohua2020@sibs.ac.cn
 ## 3. Example
 * Your query file need to be a fasta format which recorded the cDNA sequence of RNA (U was replaced as T, ACGT).
         
-        RNAlight -q $RNAlight/example/query.fasta -p Test -O RNAlight_Test
+        RNAlight -q $RNAlight/example/Query.fa -p Test -o RNAlight_Test
         
 * Please add the argument -m or --mRNA if your query sequences are mRNAs.
 
-        RNAlight -q Your_query_mRNA.fasta -m -p mRNA -O RNAlight_mRNA
+        RNAlight -q Your_query_mRNA.fasta -m -p mRNA -o RNAlight_mRNA
         
 * Please add the argument --RNA if your query file is a fasta format of RNA sequence (ACGU).  
 
-        RNAlight -q Your_query_RNA_format.fasta --RNA -p RNA_format -O RNAlight_RNA_foramt
+        RNAlight -q Your_query_RNA_format.fasta --RNA -p RNA_format -o RNAlight_RNA_foramt
         
    
 ## 4. Output
